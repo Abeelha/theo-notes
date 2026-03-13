@@ -198,9 +198,9 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 - Flowershow transactional emails are clean, on-brand, and actionable
 - No issues with deliverability or formatting
 
-![[email-notifications-welcome.jpeg]]
+![[email-notifications-welcome.jpeg|284]]
 
-![[email-flowershow.jpeg]]
+![[email-flowershow.jpeg|286]]
 
 ---
 
