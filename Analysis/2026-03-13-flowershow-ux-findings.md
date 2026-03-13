@@ -20,7 +20,7 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 
 | Severity | Count |
 |---|---|
-| 🔴 Blocker | 1 |
+| 🔴 Blocker | 2 |
 | 🟠 Confusing | 4 |
 | ⚪ Polish | 2 |
 
@@ -43,6 +43,20 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 ![[login-issue-github-google.mp4]]
 
 ---
+
+---
+
+### B2 — Security: Obsidian plugin stores PAT token in plain text, committed to git
+
+**Session**: 4 — Obsidian
+
+- The Flowershow Obsidian plugin saves the PAT token to `.obsidian/plugins/flowershow/data.json`
+- This file is tracked by git by default — anyone who publishes their vault to a public GitHub repo exposes their token
+- The token is visible in plain text in the diff and in the full git history
+- There is no warning in the plugin UI, the onboarding docs, or the setup flow that this file should be excluded from version control
+- **Expected**: Either store the token outside the vault directory, or ship a `.gitignore` with `data.json` excluded, or at minimum show a warning: "Do not commit `.obsidian/plugins/flowershow/data.json` — it contains your secret token"
+
+![[pat-token-public-security.png]]
 
 ---
 
@@ -181,6 +195,7 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 | ID  | Finding                                                                                                                                                                 | Severity     | Session | Effort |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------- | ------ |
 | B1  | Auth: OAuthAccountNotLinked for same email on GitHub+Google                                                                                                             | 🔴 Blocker   | 1       | M      |
+| B2  | Security: PAT token stored in plain text in `data.json`, committed to public git repos                                                                                  | 🔴 Blocker   | 4       | S      |
 | C1  | Obsidian: wrong site name = silent infinite loading                                                                                                                     | 🟠 Confusing | 4       | S      |
 | C2  | CLI: "sync" implies ongoing (understandable since we create the site in the dashboard, but as a old CLI user its a bit confusing instead of using "publish" its "sync") | 🟠 Confusing | 3       | S      |
 | C3  | CLI: `--name` mismatch gives no hint about correct names                                                                                                                | 🟠 Confusing | 3       | S      |
