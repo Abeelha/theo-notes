@@ -3,7 +3,7 @@
   "description": "AI analysis, plans, coding ideas, and research",
   "theme": {
     "theme": "superstack",
-    "defaultMode": "light",
+    "defaultMode": "dark",
     "showModeSwitch": true
   },
   "nav": {
