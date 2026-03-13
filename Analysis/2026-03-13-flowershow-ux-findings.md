@@ -67,3 +67,11 @@ e.g: i created a site called "test" and got this on the onboarding CLI: "publish
 
 after site creation -> on site settings -> i want to delete the site and simply:
 double click the name -> ctrl C -> paste in the copied name into delete input field, it has a space " " at the end of it, just small annoying thing when wanting to delete the site ![[copy-name-delete-site.png]]![[copy-name-delete-site.mp4]]
+
+Github publish site test (worked well-no issues)
+
+small issue was that:
+- i was logged in my google acc -> sign off -> login into new account -> it redirect me into the site settings i was previous at the account before, in this case, it tried getting me into a 404 site of the google account after login into a new account ( small redirect issue when log-off - in )
+https://cloud.flowershow.app/site/cmmp965mq0001jl04wq4tsfsn/settings ( the site that i was when logout)
+
+![[github-publish-test-with-small-issue-on-sign-out.mp4]]
