@@ -190,6 +190,20 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 
 ---
 
+## ✅ What Works Well
+
+### W1 — Email notifications are clear and well-timed
+
+- Welcome email arrives promptly after sign-up — good first impression
+- Flowershow transactional emails are clean, on-brand, and actionable
+- No issues with deliverability or formatting
+
+![[email-notifications-welcome.jpeg]]
+
+![[email-flowershow.jpeg]]
+
+---
+
 ## Prioritised Findings Table
 
 | ID  | Finding                                                                                                                                                                 | Severity     | Session | Effort |
