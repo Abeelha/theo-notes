@@ -1,0 +1,26 @@
+{
+  "title": "Theo's Notes",
+  "description": "AI analysis, plans, coding ideas, and research",
+  "theme": {
+    "theme": "superstack",
+    "defaultMode": "light",
+    "showModeSwitch": true
+  },
+  "nav": {
+    "title": "Theo's Notes",
+    "links": [
+      { "href": "/Analysis", "name": "Analysis" },
+      { "href": "/Plans", "name": "Plans" },
+      { "href": "/Ideas", "name": "Ideas" },
+      { "href": "/Notes", "name": "Notes" }
+    ]
+  },
+  "showSidebar": true,
+  "sidebar": {
+    "orderBy": "title",
+    "paths": ["/Analysis", "/Plans", "/Ideas", "/Notes"]
+  },
+  "showToc": true,
+  "showEditLink": false,
+  "showComments": false
+}
