@@ -186,6 +186,10 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 
 **The AI path (Claude Code + repo as context) works well** — reading the source is faster and more reliable than reading the docs. A non-AI user would likely hit silent failures on at least 3 of the 4 gaps above.
 
+This is a strong workflow for tech-savvy users: point Claude Code at the open-source Flowershow repo and it can answer configuration questions, find the right syntax, and make changes directly — without needing to read docs at all.
+
+![[claude-code-fetching-docs-from-repo.png]]
+
 ![[AI-coding-flowershow-note.mp4]]
 
 ---
