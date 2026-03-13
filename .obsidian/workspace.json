@@ -184,14 +184,18 @@
       "flowershow:Publish with Flowershow": false
     }
   },
-  "active": "4e1803ecf7b7cce3",
+  "active": "e28c094c495cc21f",
   "lastOpenFiles": [
-    "Plans/2026-03-13-flowershow-ux-testing.md",
+    "Analysis/2026-03-09-flowershow-ux-audit.md",
     "Analysis/2026-03-13-flowershow-ux-findings.md",
+    "Plans/2026-03-09-flowershow-ux-bugs.md",
+    "Plans/2026-03-13-flowershow-ux-testing.md",
+    "Notes/flowershow-architecture-context.md",
+    "assets/AI-coding-flowershow-note.mp4",
+    "assets/templates.png",
     "assets/github-publish-test-with-small-issue-on-sign-out.mp4",
     "assets/copy-name-delete-site.png",
     "assets/copy-name-delete-site.mp4",
-    "Plans/2026-03-09-flowershow-ux-bugs.md",
     "assets/cli-test-1.png",
     "assets/change-name-cli-sync-site.png",
     "assets/auth-error-same-email-git-google.png",
@@ -202,10 +206,7 @@
     "UX-UI-Analysis.md",
     "assets",
     "Flowershow-Context-Document.md",
-    "Notes/flowershow-architecture-context.md",
-    "Analysis/2026-03-09-flowershow-ux-audit.md",
     "Notes/README.mdx",
-    "Notes",
-    "Ideas/README.mdx"
+    "Notes"
   ]
 }
