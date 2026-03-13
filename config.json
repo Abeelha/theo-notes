@@ -2,9 +2,9 @@
   "title": "Theo's Notes",
   "description": "AI analysis, plans, coding ideas, and research",
   "theme": {
-    "theme": "superstack",
+    "theme": "lessflowery",
     "defaultMode": "dark",
-    "showModeSwitch": true
+    "showModeSwitch": false
   },
   "nav": {
     "title": "Theo's Notes",
