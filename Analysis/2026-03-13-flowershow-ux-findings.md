@@ -32,7 +32,7 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 
 **Session**: 1 — Google sign-up
 
-- Have a GitHub account with email `x@example.com`
+- Have a GitHub account with email `theodoro.dev@gmail.com`
 - Try to log in with Google using the same email
 - Hard error — `OAuthAccountNotLinked` with no explanation, no recovery path, no prompt to use GitHub instead
 - The inverse does NOT have this bug: Google-first → GitHub works fine. Failure is one-directional (GitHub-first → Google fails)
