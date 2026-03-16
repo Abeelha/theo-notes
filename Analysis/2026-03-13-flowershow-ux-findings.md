@@ -72,8 +72,6 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 
 ![[first-onboarding.mp4]]
 
-*(issue visible at ~14:20)*
-
 ---
 
 ### C2 — CLI: `publish sync` confused with an ongoing operation
@@ -139,7 +137,6 @@ description: Manual UX testing across all publishing paths — auth, onboarding,
 
 ![[first-onboarding.mp4]]
 
-*(issue visible at ~2:10)*
 
 ---
 
