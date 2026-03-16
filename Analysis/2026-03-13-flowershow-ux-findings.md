@@ -206,6 +206,18 @@ This is a strong workflow for tech-savvy users: point Claude Code at the open-so
 
 ![[email-flowershow.jpeg|286]]
 
+### W2 — Template onboarding: flawless, fast, and genuinely useful
+
+- Selected a template during site creation — the whole flow was instant and frictionless
+- Three templates available: **Wiki**, **Docs**, and **Blog** — each with real placeholder content that demonstrates how to format, create, and edit pages in that style
+- The placeholder content is high quality — it shows the actual patterns users should follow rather than generic "Lorem ipsum" filler
+- People starting from a template will have a much smoother first experience: structure is already there, they just replace the content
+- This is one of the strongest parts of the onboarding — it bridges the gap between "I created a site" and "I know what to put in it"
+
+![[templates-created.png]]
+
+![[templates-flowershow-analysis.mp4]]
+
 ---
 
 ## Prioritised Findings Table
@@ -215,9 +227,12 @@ This is a strong workflow for tech-savvy users: point Claude Code at the open-so
 | B1  | Auth: OAuthAccountNotLinked for same email on GitHub+Google                                                                                                             | 🔴 Blocker   | 1       | M      |
 | B2  | Security: PAT token stored in plain text in `data.json`, committed to public git repos                                                                                  | 🔴 Blocker   | 4       | S      |
 | C1  | Obsidian: wrong site name = silent infinite loading                                                                                                                     | 🟠 Confusing | 4       | S      |
-| C2  | CLI: "sync" implies ongoing (understandable since we create the site in the dashboard, but as a old CLI user its a bit confusing instead of using "publish" its "sync") | 🟠 Confusing | 3       | S      |
+| C2  | CLI: "sync" implies ongoing — one-shot publish but reads like a daemon                                                                                                  | 🟠 Confusing | 3       | S      |
 | C3  | CLI: `--name` mismatch gives no hint about correct names                                                                                                                | 🟠 Confusing | 3       | S      |
 | C4  | Delete site: copied name has trailing space                                                                                                                             | 🟠 Confusing | 1       | S      |
 | C5  | Logout → login redirects to previous account's site                                                                                                                     | 🟠 Confusing | 2       | S      |
 | P1  | Drag-drop zone affordance unclear                                                                                                                                       | ⚪ Polish     | 1       | S      |
 | P2  | CLI EBADENGINE warnings confuse new users                                                                                                                               | ⚪ Polish     | 3       | S      |
+| W1  | Email notifications clear and well-timed                                                                                                                                | ✅ Positive   | 1       | —      |
+| W2  | Template onboarding: flawless flow, high-quality placeholder content                                                                                                    | ✅ Positive   | 1       | —      |
+templates-created.png
