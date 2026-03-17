@@ -17,3 +17,83 @@
 [data-theme="dark"] .MuiCard-root span {
   color: #e0e0e0 !important;
 }
+
+/* ── Badges ─────────────────────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2em 0.75em;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  background: #f59e0b;
+  color: #1a0a00;
+  text-decoration: none;
+  transition: filter 0.15s ease;
+}
+
+.badge:hover {
+  filter: brightness(1.1);
+}
+
+.badge-done       { background: #22c55e; color: #052e16; }
+.badge-blocked    { background: #ef4444; color: #fff; }
+.badge-draft      { background: #94a3b8; color: #0f172a; }
+.badge-idea       { background: #a78bfa; color: #1e0a3c; }
+.badge-outline {
+  background: transparent;
+  border: 2px solid #f59e0b;
+  color: #f59e0b;
+}
+
+.badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 0.5em 0;
+}
+
+/* ── Buttons (link-style CTAs) ───────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.45em 1.1em;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: #f59e0b;
+  color: #1a0a00;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #f59e0b;
+  color: #f59e0b;
+}
+
+.btn-sm {
+  font-size: 0.75rem;
+  padding: 0.3em 0.85em;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0.75em 0;
+}
+
+[data-theme="dark"] .btn-outline { color: #fbbf24; border-color: #fbbf24; }
